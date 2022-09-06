@@ -1,0 +1,49 @@
+.hide {
+  display: none;
+}
+.user-card {
+  flex-direction: column;
+  width: 70vw;
+  height: 200px;
+  padding: 20px;
+  border-radius: 20px;
+  background: #b4b4b4;
+}
+.user-card .user-card-baseinfo {
+  width: 100%;
+  height: 70%;
+}
+.user-card .user-card-profile {
+  width: 100px;
+  height: 100px;
+}
+.user-card .user-card-profile img {
+  width: 100%;
+  border-radius: 90px;
+}
+.user-card .user-card-userinfo {
+  width: calc(100% - 100px);
+  height: 100px;
+  font-size: 3em;
+}
+.user-card .user-card-userinfo .user-card-userinfo-username {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+}
+.user-card .user-card-userinfo .user-card-userinfo-followers {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  color: white;
+}
+.user-card .user-card-repos {
+  width: 100%;
+  height: 30%;
+  justify-content: space-around;
+}
+.user-card .user-card-repos .user-card-repo {
+  padding: 5px;
+  background: #999999;
+  border-radius: 10px;
+}

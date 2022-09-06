@@ -1,0 +1,13 @@
+.container {
+  width: 40vw;
+  height: 70px;
+}
+.container input {
+  width: 90%;
+  height: 80%;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 2em;
+  text-indent: 20px;
+}
